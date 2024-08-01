@@ -39,5 +39,8 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "ts-jest": "^29.2.4",
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3"
   }
 }
