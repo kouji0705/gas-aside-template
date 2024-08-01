@@ -1,3 +1,6 @@
+/**
+ * Copyright 2024 k.k.Factory
+ */
 import { SpreadsheetUtil } from "@/common/spreadSheetUtils";
 
 function doPost(
