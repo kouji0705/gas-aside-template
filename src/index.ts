@@ -19,14 +19,11 @@ function doPost(
 }
 
 function doGet(
-	e: GoogleAppsScript.Events.DoPost,
+	e: GoogleAppsScript.Events.DoGet,
 ): GoogleAppsScript.Content.TextOutput {
 	// POSTリクエストのペイロードを取得
-	const payload = e.postData.contents;
 
 	// ペイロードを解析（必要に応じて）
-	const data = JSON.parse(payload);
-	console.log("=======data: ", data);
 	const spreadsheetUtil = new SpreadsheetUtil();
 	const a1cell = spreadsheetUtil.getCellValue("Sheet1", "A1");
 	console.log("a1cell", a1cell);
